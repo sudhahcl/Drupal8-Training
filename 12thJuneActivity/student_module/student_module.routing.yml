@@ -1,0 +1,16 @@
+student_module.submission_form_add:
+  path: /student/register
+  defaults:
+    _form: 'Drupal\student_module\Form\SubmissionConfigSettings'
+    _title: 'Student Register Form'
+  requirements:
+    _permission: 'access content'
+ 
+student_module.change_password:
+  path: '/teacherrequest'
+  defaults:
+    _form: 'Drupal\student_module\Form\RequestStatusCheck'
+    _title: 'Student Access Request'
+  requirements:
+    _permission: 'access content'    
+ 

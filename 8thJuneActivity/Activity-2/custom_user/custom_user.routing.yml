@@ -1,0 +1,7 @@
+custom_example.custom_example_add:
+  path: /trainingEdit
+  defaults:
+    _form: 'Drupal\custom_user\Form\ContentUserForm'
+    _title: 'User Edit Custom Module'
+  requirements:
+    _permission: 'access content'

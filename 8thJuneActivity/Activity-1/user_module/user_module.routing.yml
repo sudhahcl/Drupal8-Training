@@ -1,0 +1,14 @@
+user_module.hello:
+  path: '/user/module'
+  defaults:
+     _controller: Drupal\user_module\Controller\UserModuleController::hello
+  requirements:
+    _permission: 'access content'
+  
+
+user_module.parms:
+  path: '/newuser/{user}'
+  defaults:
+     _controller: Drupal\user_module\Controller\UserModuleController::parms
+  requirements:    
+     _role: 'administrator'

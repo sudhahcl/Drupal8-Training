@@ -1,0 +1,16 @@
+submission_module.submission_form_add:
+  path: /custom/register
+  defaults:
+    _form: 'Drupal\submission_module\Form\SubmissionConfigSettings'
+    _title: 'Register Submission Form'
+  requirements:
+    _permission: 'access content'
+ 
+submission_module.change_password:
+  path: '/custom/{custom_id}/edit'
+  defaults:
+    _form: 'Drupal\submission_module\Form\ChangePasswod'
+    _title: 'Change Password Form'
+  requirements:
+    _permission: 'access content'    
+ 

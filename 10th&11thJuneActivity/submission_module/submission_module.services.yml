@@ -1,0 +1,8 @@
+services:
+  submission_module.regserive:
+    class: 'Drupal\submission_module\Services\SubmissionService'
+    arguments: ['@config.factory']
+    
+  submission_module.say_hello:
+    class: Drupal\submission_module\HelloServices  
+  

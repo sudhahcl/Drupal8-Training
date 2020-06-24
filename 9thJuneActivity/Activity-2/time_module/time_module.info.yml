@@ -1,0 +1,10 @@
+name: Time Module
+description: 'The content is for the time module'
+type: module
+package: custom
+# core: '8.x'
+configure: time_module.configuration
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'
+

@@ -1,0 +1,7 @@
+form_api_module.custom_example_add:
+  path: /form_api_example
+  defaults:
+    _form: 'Drupal\form_api_module\Form\FormAPIElements'
+    _title: 'Add Custom Configuration'
+  requirements:
+    _permission: 'access content'

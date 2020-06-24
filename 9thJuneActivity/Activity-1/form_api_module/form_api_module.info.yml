@@ -1,0 +1,12 @@
+name: Form API Example
+description: 'From api module example'
+type: module
+
+package: custom
+# core: '8.x'
+configure: form_api_module.configuration
+
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'
+

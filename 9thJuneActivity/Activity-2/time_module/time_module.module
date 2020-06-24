@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains time_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+function time_module_theme() {
+  return [
+    'time_module' => [
+      'render element' => 'children',
+      'variables' => array(
+        'content' => NULL,
+      ),
+    ],
+  ];
+}
+

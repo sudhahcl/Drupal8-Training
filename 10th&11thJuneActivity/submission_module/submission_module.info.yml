@@ -1,0 +1,11 @@
+name: submission module
+description: 'This is the submission module for save registration'
+type: module
+
+package: custom
+# core: '8.x'
+configure: submission_module.configuration
+
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'

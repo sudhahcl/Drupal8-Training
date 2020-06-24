@@ -1,0 +1,11 @@
+name: student module
+description: 'This is the student teacher module for Requesting chapters'
+type: module
+
+package: custom
+# core: '8.x'
+configure: student_module.configuration
+
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'

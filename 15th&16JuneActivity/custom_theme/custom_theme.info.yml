@@ -1,0 +1,20 @@
+name: Custom Theme
+type: theme
+description: 'New Custom theme for my Test'
+package: Other
+core: 8.x
+libraries:
+- custom_theme/global-styling
+
+base theme: classy
+regions:
+  branding: Branding
+  navigation: Main navigation
+  search: Search
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom

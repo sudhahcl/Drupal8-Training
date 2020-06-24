@@ -1,0 +1,14 @@
+calculator_module.hello:
+  path: '/oops'
+  defaults:
+     _controller: Drupal\calculator_module\Controller\CalculatorController::callAllFun
+  requirements:
+    _permission: 'access content'
+  
+
+calculator_module.loggersample:
+  path: '/areacalculation/{height}/{weight}'
+  defaults:
+     _controller: Drupal\calculator_module\Controller\AreacalculatorController::loggersample
+  requirements:    
+     _role: 'administrator'

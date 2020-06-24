@@ -1,0 +1,12 @@
+name: custom user
+description: 'content custom user example'
+type: module
+
+package: custom
+# core: '8.x'
+configure: custom_user.configuration
+
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'
+
